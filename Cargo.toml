@@ -20,5 +20,8 @@ include = [
 ]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+proc-macro = true
+
 [dependencies]
 adv_linalg_lib = "0.1"
